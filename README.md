@@ -1,2 +1,2 @@
 # BigO-Notation
-Some Big O explanation with Java
+That's the simplest possible Big O explanation, with Java.
