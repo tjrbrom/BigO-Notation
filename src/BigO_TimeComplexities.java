@@ -46,7 +46,7 @@ public class BigO_TimeComplexities {
     }
 
     /**
-     * O(n log n) - Linear time complexity
+     * O(n log n) - linearithmic time complexity
      * <p>
      * The running time grows in proportion to n log n of the input.
      * <p>
@@ -57,7 +57,7 @@ public class BigO_TimeComplexities {
         int n = 10;
 
         for (int i = 1; i <= n; i++) {
-            for (int j = 1; j < 10; j = j * 2) {
+            for (int j = 1; j < n; j = j * 2) {
                 System.out.println("Checking i,j: (" + i + "," + j + ")");
             }
         }
@@ -135,7 +135,7 @@ public class BigO_TimeComplexities {
 //        System.out.println("O(n) - Linear time complexity");
 //        linear_time();
 //
-//        System.out.println("O(n log n) - Linear time complexity");
+//        System.out.println("O(n log n) - linearithmic time complexity");
 //        NLogN_time();
 //
 //        System.out.println("O(n^p) - Polynomial time complexity");
