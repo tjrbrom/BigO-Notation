@@ -1,7 +1,7 @@
 /**
  * Each method is a case of different time complexity explained.
  */
-public class BigO_TimeComplexities {
+public final class BigO_TimeComplexities {
 
     /**
      * O(1) - Constant time
@@ -10,11 +10,7 @@ public class BigO_TimeComplexities {
      */
     static void constant_time() {
 
-        int x = 1234;
-
-        System.out.println(x);
-        System.out.println("The printing of x is constant time, because the time it takes to run" +
-                " does not depend on the size of x.");
+        int x = 123; // it's constant time, cause the time it takes to run does not depend on the size of x.
     }
 
     /**
@@ -114,38 +110,11 @@ public class BigO_TimeComplexities {
         }
     }
 
-    static int factorial(int n) {
+    private static int factorial(int n) {
 
-        if (n == 1) {
-            return n;
-        }
+        if (n == 1) return n;
+
         return factorial(n - 1) * n;
-    }
-
-    public static void main(String args[]) {
-
-        System.out.println("pick one...");
-
-//        System.out.println("O(1) - Constant time");
-//        constant_time();
-//
-//        System.out.println("O(log n) - Logarithmic time complexity");
-//        logarithmic_time();
-//
-//        System.out.println("O(n) - Linear time complexity");
-//        linear_time();
-//
-//        System.out.println("O(n log n) - linearithmic time complexity");
-//        NLogN_time();
-//
-//        System.out.println("O(n^p) - Polynomial time complexity");
-//        polynomial_time();
-//
-//        System.out.println("O(k^n) - Exponential time complexity");
-//        exponential_time();
-//
-//        System.out.println("O(n!) - Factorial time complexity");
-//        factorial_time();
     }
 
 }
