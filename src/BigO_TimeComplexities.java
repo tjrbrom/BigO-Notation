@@ -8,7 +8,7 @@ public final class BigO_TimeComplexities {
      * <p>
      * It means the time it takes to run is the same, regardless the input.
      */
-    static void constant_time() {
+    static void constant() {
 
         int x = 123; // it's constant time, cause the time it takes to run does not depend on the size of x.
     }
@@ -18,7 +18,7 @@ public final class BigO_TimeComplexities {
      * <p>
      * The running time grows in proportion to the logarithm of the input.
      */
-    static void logarithmic_time() {
+    static void logarithmic() {
 
         int input = 100;
 
@@ -32,7 +32,7 @@ public final class BigO_TimeComplexities {
      * <p>
      * It means the time it takes to run is growing linearly with the size of the input.
      */
-    static void linear_time() {
+    static void linear() {
 
         int input = 100;
 
@@ -48,7 +48,7 @@ public final class BigO_TimeComplexities {
      * <p>
      * This will run 10 * log(10) times.
      */
-    static void NLogN_time() {
+    static void NLogN() {
 
         int n = 10;
 
@@ -67,7 +67,7 @@ public final class BigO_TimeComplexities {
      * This algorithm will run 10^2 = 100 times
      * If we add another loop inside, this becomes 10^3 etc.
      */
-    static void polynomial_time() {
+    static void polynomial() {
 
         int n = 10;
 
@@ -85,7 +85,7 @@ public final class BigO_TimeComplexities {
      * <p>
      * This algorithm will run 2^10 = 1024 times
      */
-    static void exponential_time() {
+    static void exponential() {
 
         int n = 10;
 
@@ -101,7 +101,7 @@ public final class BigO_TimeComplexities {
      * <p>
      * This algorithm will run n! times
      */
-    static void factorial_time() {
+    static void factorial() {
 
         int n = 10;
 
